@@ -1,13 +1,13 @@
-'use strict';
+'use strict'
 
 exports.up = (knex, Promise) => {
-    return knex.schema.createTable('example', (table) => {
-        table.increments('id');
-        table.string('description', 100);
-        table.timestamps(true);
-    });
-};
+  return knex.schema.createTable('example', (table) => {
+    table.increments('id')
+    table.string('description', 100)
+    table.timestamps(true)
+  })
+}
 
 exports.down = (knex, Promise) => {
-    return knex.schema.dropTable('example');
-};
+  return knex.schema.dropTable('example')
+}

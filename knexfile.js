@@ -1,4 +1,4 @@
-const config = require('./config');
+const config = require('./config')
 
 module.exports = {
 
@@ -6,7 +6,7 @@ module.exports = {
     client: config.db.client,
     connection: {
       database: config.db.database,
-      user:     config.db.user,
+      user: config.db.user,
       password: config.db.password
     },
     pool: {
@@ -21,7 +21,7 @@ module.exports = {
     client: config.db.client,
     connection: {
       database: config.db.database,
-      user:     config.db.user,
+      user: config.db.user,
       password: config.db.password
     },
     pool: {
@@ -36,7 +36,7 @@ module.exports = {
     client: config.db.client,
     connection: {
       database: config.db.database,
-      user:     config.db.user,
+      user: config.db.user,
       password: config.db.password
     },
     pool: {
@@ -48,4 +48,4 @@ module.exports = {
     }
   }
 
-};
+}
